@@ -1,0 +1,14 @@
+﻿  DataStructuresUnitTests.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\memory(46): warning C4996: 'std::uninitialized_copy::_Unchecked_iterators::_Deprecate': Call to 'std::uninitialized_copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\memory(46): note: see declaration of 'std::uninitialized_copy::_Unchecked_iterators::_Deprecate'
+  c:\users\piete\source\repos\datastructures\datastructures\vector.h(123): note: see reference to function template instantiation '_FwdIt *std::uninitialized_copy<int*,int*>(const _InIt,const _InIt,_FwdIt)' being compiled
+          with
+          [
+              _FwdIt=int *,
+              _InIt=int *
+          ]
+  c:\users\piete\source\repos\datastructures\datastructures\vector.h(121): note: while compiling class template member function 'Vector<int>::Vector(int *,int *)'
+  c:\users\piete\source\repos\datastructures\datastructurestest\datastructuresunittests.cpp(36): note: see reference to function template instantiation 'Vector<int>::Vector(int *,int *)' being compiled
+  c:\users\piete\source\repos\datastructures\datastructurestest\datastructuresunittests.cpp(22): note: see reference to class template instantiation 'Vector<int>' being compiled
+     Creating library C:\Users\piete\source\repos\DataStructures\Debug\DataStructuresTest.lib and object C:\Users\piete\source\repos\DataStructures\Debug\DataStructuresTest.exp
+  DataStructuresTest.vcxproj -> C:\Users\piete\source\repos\DataStructures\Debug\DataStructuresTest.dll
